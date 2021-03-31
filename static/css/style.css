@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  --color-primary: rgba(94, 94, 105, 0.61);
+  --color-secondary: rgb(133, 174, 250);
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  min-height: 3em;
+  right: 0;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: var(--color-secondary);
+}
+
+nav > li {
+  list-style: none;
+  padding: 0 1em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.6s;
+}
+
+nav li a:hover {
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+}
