@@ -9,7 +9,7 @@ The clean, fast and right way to start a new Django `3.0` powered website.
 
 ```bash
 $ git clone https://github.com/putramaghfirah/Django-ppl.git
-$ cd ppl
+$ cd django
 $ pipenv sync
 $ pipenv shell
 $ python manage.py makemigrations
