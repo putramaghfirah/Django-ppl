@@ -40,6 +40,10 @@ nav li a:hover {
   cursor: pointer;
 }
 
+.main-content {
+  margin-top: 3rem;
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     flex-direction: column;
